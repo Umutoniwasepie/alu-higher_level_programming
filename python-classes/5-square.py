@@ -50,3 +50,4 @@ class Square:
         else:
             print()
 
+
