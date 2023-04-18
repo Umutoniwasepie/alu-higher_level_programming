@@ -19,3 +19,4 @@ if __name__ == "__main__":
     # close cursor and db
     cur.close()
     db.close()
+
