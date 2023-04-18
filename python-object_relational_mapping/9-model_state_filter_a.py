@@ -20,6 +20,7 @@ def list_a_state_obj():
         if 'a' in i.__dict__['name']:
             print("{}: {}".format(i.__dict__['id'], i.__dict__['name']))
 
+
     session.close()
 
 if __name__ == "__main__":
