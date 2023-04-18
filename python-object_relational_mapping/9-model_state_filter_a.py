@@ -16,12 +16,12 @@ def list_a_state_obj():
 
     rows = session.query(State).all()
 
-
     for i in rows:
         if 'a' in i.__dict__['name']:
             print("{}: {}".format(i.__dict__['id'], i.__dict__['name']))
 
     session.close()
+
 
 if __name__ == "__main__":
     list_a_state_obj()
